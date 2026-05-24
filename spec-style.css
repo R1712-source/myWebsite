@@ -1,0 +1,60 @@
+@font-face{
+    font-family: thai-google;
+    src: url(font/GoogleSans-VariableFont_GRAD\,opsz\,wght.ttf);
+}
+@font-face{
+    font-family: thai-italic;
+    src: url(font/GoogleSans-Italic-VariableFont_GRAD\,opsz\,wght.ttf);
+}
+@font-face{
+    font-family: thai-google;
+    src: url(font/GoogleSans-VariableFont_GRAD\,opsz\,wght.ttf);
+}
+@font-face{
+    font-family: Mitr;
+    src: url(font/Mitr/Mitr-Regular.ttf);
+}
+@font-face{
+    font-family: Mitr-light;
+    src: url(font/Mitr/Mitr-ExtraLight.ttf);
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(0, 0%, 95%);
+    margin: 0px;
+    font-family: thai-google;
+}
+.banner img{
+    display: flexbox;
+    width: 100%;
+    opacity: 75%;
+    margin: 0px
+}
+.op div:not(.banner){
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.op{
+    #div1{
+        background-color:aqua;
+    }
+    h1{
+        font-family: Mitr;
+    }
+    #div2{
+        background-color:aqua;
+    }
+    hr{
+        width: 36%;
+        margin-left: 20px;
+    }
+    #div3{
+        background-color: yellowgreen;
+    }
+    #div4{
+        background-color: yellowgreen;
+        margin-top: 2em;
+    }
+}

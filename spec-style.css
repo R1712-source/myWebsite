@@ -32,29 +32,77 @@ body{
     opacity: 75%;
     margin: 0px
 }
-.op div:not(.banner){
+.op div:not(.banner), .op h3{
     margin-left: 20px;
     margin-right: 20px;
 }
+a{
+    color: black;
+    text-decoration-thickness:0.5px;
+}
 .op{
+    p{
+        text-indent: 40px;
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+    div{
+        margin-top: 2em;
+        margin-bottom: 1.6em;
+    }
     #div1{
         background-color:aqua;
     }
+    #div1 span{
+        font-size: 0.8em;
+    }
     h1{
         font-family: Mitr;
+        margin-bottom: 0.5rem;
+        font-size: 3em;
     }
     #div2{
         background-color:aqua;
     }
+    #div2 h3{
+        font-size: 2em;
+        color: hsla(0, 79%, 65%, 0.893);
+        letter-spacing: 8px;
+        display: inline;
+    }
+    h3{
+        margin-bottom: 0;
+    }
     hr{
-        width: 36%;
+        width: 92%;
         margin-left: 20px;
+        margin-top: 0px;
     }
     #div3{
         background-color: yellowgreen;
+        margin-top: 0;
     }
     #div4{
         background-color: yellowgreen;
-        margin-top: 2em;
+        margin-top: 0;
+        font-family: Mitr-light;
+        font-size: 0.95em;
     }
+    .trivial{
+        font-family: Mitr-light;
+        font-size: 1.25em;
+    }
+    #div2 img{
+        object-fit: contain;
+        display: none;
+        width: 8em;
+        position: absolute;
+        float: right;
+    }
+    
+}
+#underline{
+    width: 36%;
+    margin-left: 20px;
+    margin-top: 0px;
 }

@@ -84,7 +84,7 @@ h3{
     h1{
         font-family: Mitr;
         margin-bottom: 0.5rem;
-        font-size: 3em;
+        font-size: 2.5em;
     }
     #div2 h3{
         font-size: 2em;
@@ -108,9 +108,7 @@ hr{
 .gallery{
     display: block;
     border: 1px solid;
-    margin: 0px 20px;
-    position: relative;
-    left: 15vh;
+    margin: 0px auto 0px;
     width: 260px;
     height: auto;
     img{
@@ -137,8 +135,9 @@ hr{
         margin: 2em auto 4em auto;
         padding: 0 20px;
     }
-    .gallery{
-        left: 25vh;
+    
+    h1{
+        font-size: 3em;
     }
 }
 

@@ -26,83 +26,125 @@ body{
     margin: 0px;
     font-family: thai-google;
 }
+.banner{
+    background: none;
+}
 .banner img{
     display: flexbox;
     width: 100%;
     opacity: 75%;
     margin: 0px
 }
-.op div:not(.banner), .op h3{
-    margin-left: 20px;
-    margin-right: 20px;
-}
 a{
     color: black;
     text-decoration-thickness:0.5px;
 }
+p{
+    text-indent: 40px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+h3{
+    margin-bottom: 0;
+}
+.trivial{
+    font-family: Mitr-light;
+    font-size: 1.25em;
+
+    span{
+        font-weight: normal;
+        font-size: 0.75em;
+    }
+    
+}
+#trivial-content p{
+    font-family: Mitr-light;
+    font-size: 0.95em;
+    line-height: 1.6em;
+} 
+#underline{
+    width: 40%;
+}
+.emoji{
+    font-size: 0.8rem;
+}
+
+.container{
+    margin: 2em auto 4em auto;
+    padding: 0 20px;
+    max-width: 720px;
+    border-radius: 5px;
+}
+.content{
+    margin-top: 15px;
+    line-height: 1.4em;
+}
 .op{
-    p{
-        text-indent: 40px;
-        margin-top: 0px;
-        margin-bottom: 10px;
-    }
-    div{
-        margin-top: 2em;
-        margin-bottom: 1.6em;
-    }
-    #div1{
-        background-color:aqua;
-    }
-    #div1 span{
-        font-size: 0.8em;
-    }
+    box-sizing: border-box;
     h1{
         font-family: Mitr;
         margin-bottom: 0.5rem;
         font-size: 3em;
     }
-    #div2{
-        background-color:aqua;
-    }
     #div2 h3{
         font-size: 2em;
-        color: hsla(0, 79%, 65%, 0.893);
+        color: hsl(200, 100%, 50%);
         letter-spacing: 8px;
         display: inline;
     }
-    h3{
-        margin-bottom: 0;
+    #div1{
+        background-color:hsl(0, 0%, 100%);
     }
-    hr{
-        width: 92%;
-        margin-left: 20px;
-        margin-top: 0px;
+}
+div{
+    background-color: white;
+}
+hr{
+    width: 92%;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+.gallery{
+    display: block;
+    border: 1px solid;
+    margin: 0px 20px;
+    position: relative;
+    left: 15vh;
+    width: 260px;
+    height: auto;
+    img{
+        width: 100%;
     }
-    #div3{
-        background-color: yellowgreen;
-        margin-top: 0;
+    div{
+        text-align: center;
+        padding: 10px;
     }
-    #div4{
-        background-color: yellowgreen;
-        margin-top: 0;
-        font-family: Mitr-light;
-        font-size: 0.95em;
+}
+#img1{
+    margin-bottom: 8.5rem;
+}
+.description{
+    font-family: Mitr-light;
+    font-size: 0.8em;
+    line-height: 18px;
+}
+@media screen and (min-width:600px){
+    .container{
+        max-width: 640px;
+        width: calc(100% - 40px);
+        display: block;
+        margin: 2em auto 4em auto;
+        padding: 0 20px;
     }
-    .trivial{
-        font-family: Mitr-light;
-        font-size: 1.25em;
+    .gallery{
+        left: 25vh;
     }
-    #div2 img{
-        object-fit: contain;
-        display: none;
-        width: 8em;
-        position: absolute;
-        float: right;
+}
+
+@media screen and (min-width:900px){
+    .container{
+        max-width: 720px;
     }
     
-}
-#underline{
-    width: 36%;
-    margin-left: 20px;
-    margin-top: 0px;
 }
